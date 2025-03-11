@@ -29,6 +29,8 @@ KCONFIG_MODE ?= "--alldefconfig"
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/config:"
 
+INSANE_SKIP:${PN}-src = "buildpaths"
+
 SRC_URI:append:agilex7_dk_si_agf014ea = " file://jffs2.scc file://gpio_sys.scc file://usb_adapter.scc "
 SRC_URI:append:agilex7_dk_si_agf014eb = " file://jffs2.scc file://gpio_sys.scc file://usb_adapter.scc "
 SRC_URI:append:agilex7_dk_si_agi027fb = " file://jffs2.scc file://gpio_sys.scc file://usb_adapter.scc "
