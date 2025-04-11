@@ -13,7 +13,7 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 ATF_PROT ?= "https"
 ATF_BRANCH ?= "socfpga_v2.3"
-ATF_REPO ?= "git://github.com/altera-opensource/arm-trusted-firmware.git"
+ATF_REPO ?= "git://github.com/altera-fpga/arm-trusted-firmware.git"
 
 SRC_URI = "${ATF_REPO};protocol=${ATF_PROT};branch=${ATF_BRANCH}"
 

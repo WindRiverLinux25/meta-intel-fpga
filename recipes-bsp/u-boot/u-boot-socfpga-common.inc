@@ -70,7 +70,7 @@ LICENSE = "GPL-2.0-or-later"
 LIC_FILES_CHKSUM ?= "file://Licenses/README;md5=30503fd321432fc713238f582193b78e"
 PE = "1"
 
-UBOOT_REPO ?= "git://github.com/altera-opensource/u-boot-socfpga.git"
+UBOOT_REPO ?= "git://github.com/altera-fpga/u-boot-socfpga.git"
 UBOOT_PROT ?= "https"
 
 UBOOT_VERSION_PREFIX ?= "socfpga_"
