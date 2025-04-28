@@ -1,4 +1,4 @@
-DESCRIPTION = "Linux Kernel for Intel SoCFPGA"
+DESCRIPTION = "Linux Kernel for Altera SoCFPGA"
 LICENSE = "GPL-2.0-only"
 
 
