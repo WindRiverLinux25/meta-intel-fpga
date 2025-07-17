@@ -41,6 +41,7 @@ SRC_URI:append:agilex7_dk_dev_agm039fb = " file://jffs2.scc file://gpio_sys.scc 
 SRC_URI:append:agilex7_dk_dev_agf023fa = " file://jffs2.scc file://gpio_sys.scc file://usb_adapter.scc "
 SRC_URI:append:agilex5 = " file://jffs2.scc file://gpio_sys.scc file://agilex5.scc file://usb_adapter.scc "
 SRC_URI:append:agilex5_dk_a5e065bb32aes1 = " file://jffs2.scc file://gpio_sys.scc file://agilex5.scc file://usb_adapter.scc "
+SRC_URI:append:agilex5_dk_a5e013bm16aea = " file://jffs2.scc file://gpio_sys.scc file://agilex5.scc file://usb_adapter.scc "
 SRC_URI:append:agilex5_dk_a5e013bb32aes = " file://jffs2.scc file://gpio_sys.scc file://agilex5.scc file://usb_adapter.scc "
 SRC_URI:append:agilex5_dk_a5e013bb32aes_5s = " file://jffs2.scc file://gpio_sys.scc file://agilex5.scc file://usb_adapter.scc "
 SRC_URI:append:agilex5_mk_a5e065bb32aes1 = " file://jffs2.scc file://gpio_sys.scc file://agilex5.scc file://usb_adapter.scc "
