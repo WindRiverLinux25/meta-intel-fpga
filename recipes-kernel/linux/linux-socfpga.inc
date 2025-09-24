@@ -1,4 +1,4 @@
-DESCRIPTION = "Linux Kernel for Intel SoCFPGA"
+DESCRIPTION = "Linux Kernel for Altera SoCFPGA"
 LICENSE = "GPL-2.0-only"
 
 
@@ -38,6 +38,8 @@ SRC_URI:append:agilex7_dk_si_agi027fa = " file://jffs2.scc file://gpio_sys.scc f
 SRC_URI:append:agilex7_dk_si_agi027fc = " file://jffs2.scc file://gpio_sys.scc file://usb_adapter.scc "
 SRC_URI:append:agilex7_dk_dev_agf027f1es = " file://jffs2.scc file://gpio_sys.scc file://usb_adapter.scc "
 SRC_URI:append:agilex7_dk_dev_agm039fes = " file://jffs2.scc file://gpio_sys.scc file://usb_adapter.scc "
+SRC_URI:append:agilex7_dk_dev_agm039fb = " file://jffs2.scc file://gpio_sys.scc file://usb_adapter.scc "
+SRC_URI:append:agilex7_dk_dev_agf023fa = " file://jffs2.scc file://gpio_sys.scc file://usb_adapter.scc "
 SRC_URI:append:agilex5 = " file://jffs2.scc file://gpio_sys.scc file://agilex5.scc file://usb_adapter.scc "
 SRC_URI:append:agilex5_dk_a5e065bb32aes1 = " file://jffs2.scc file://gpio_sys.scc file://agilex5.scc file://usb_adapter.scc "
 SRC_URI:append:agilex5_dk_a5e013bb32aesi0 = " file://jffs2.scc file://gpio_sys.scc file://agilex5.scc file://usb_adapter.scc "
